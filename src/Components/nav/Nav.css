@@ -1,0 +1,37 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 5%;
+}
+.navbar img{
+    width:150px;
+}
+/*dropdwn styling*/
+.dropdwn-container{
+    justify-content: space-between;
+    display: flex;
+    width: 18%;
+    
+}
+.dropdwn-container select{
+    border:none;
+    background:none;
+    outline: none;
+    margin:0 5px;
+    font-weight:600;
+    font-size: 1.25rem;
+}
+/*Btn-styling*/
+.nav-btn{
+    width:105px;
+    height: 40px;
+    margin-top:20px;
+    background:var(--primary-orange);
+    border-style:none;
+    border-radius: 11px;
+    border-bottom: 4px solid var(--primary-dark-orange);
+    color:var(--primary-white);
+    font-weight:600;
+    font-size: 1rem;
+}

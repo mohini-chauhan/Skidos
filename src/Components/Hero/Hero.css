@@ -1,0 +1,41 @@
+.hero-container{
+   width:100%;
+   height:95vh;
+   background-image:url("./herobg.png");
+   background-size: contain;
+   background-repeat:no-repeat;
+   
+}
+.hero-container img{
+    position:relative;
+    left:50%;
+    top:-20%;
+    width: 30%;
+}
+.hero-contents{
+    width: 35%;
+    position: relative;
+    top: 13%;
+    left: 7%;
+}
+.hero-contents h1{
+    color:var(--primary-white);
+    font-size: 3rem;
+}
+.hero-contents p{
+    color:var(--primary-white);
+    font-size: 2rem;
+    line-height:45px;
+    margin:25px 0;
+}
+.try-btn{
+    width:57%;
+    height: 65px;
+    background:var(--primary-orange);
+    border-style:none;
+    border-radius: 11px;
+    border-bottom: 5px solid var(--primary-dark-orange);
+    color:var(--primary-white);
+    font-weight:800;
+    font-size:1.25rem;
+}

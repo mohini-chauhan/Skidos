@@ -1,14 +1,18 @@
 
 import './App.css';
 import Nav from "./Components/nav/Nav";
-import {BrowserRouter as Router} from "react-router-dom";
+import Hero from './Components/Hero/Hero';
+import About from "./Components/About/About";
+import Features from './Components/Features/Features';
+
 function App() {
   return (
-    <Router>
+    <>
       <Nav/>
-    </Router>
-      
-      
+      <Hero/>
+      <About/>
+      <Features/>
+    </>
     
   );
 }
