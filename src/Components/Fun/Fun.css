@@ -1,0 +1,27 @@
+.fun-container{
+    width:100%;
+    padding:0 10%;
+}
+.fun-contents{
+    width:95%;
+    margin:0 auto;
+
+}
+.fun-contents h2{
+    text-align:center;
+    font-size: 2.5rem;
+}
+.flex-section{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    margin:70px 0;
+}
+.fun-img{
+    width:25%;
+    margin:0 5%;
+}
+.fun-content{
+    width:75%;
+    margin:0 5%;
+}

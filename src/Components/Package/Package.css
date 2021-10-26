@@ -1,0 +1,96 @@
+.package-container{
+    width:100%;
+    padding:5% 10%;
+}
+.package-container h1{
+    text-align:center;
+    font-size:3rem;
+}
+.package-container p{
+    text-align:center;
+    font-size:1.5rem;
+    line-height: 8rem;
+}
+.package-card-container{            /*needs to be checked*/
+    width:95%;
+    margin:0 auto;
+    
+}
+.card-heading{
+    position:relative;
+    bottom:478px;
+    right:525px;
+    font-weight:600; 
+}
+
+.combo-img{
+    display:flex;
+    width:15%;
+    justify-content:center;
+}
+.cap{
+    position:relative;
+    width:30%;
+    height:40%;
+    bottom:500px;
+    left:110px;
+    
+}
+.off{
+    position:relative;
+    width:45%;
+    height:40%;
+    bottom:525px;
+    left: 135px;
+    
+}
+.package-card-contents .month-price{    
+    position:relative;
+    bottom:520px;
+    right:525px;
+    color:var(--primary-white);
+    font-size:45px;
+    font-weight:700;
+}
+
+.package-card-contents .month-price smaller{
+    font-size:30px;
+    font-weight:500;
+    color:var(--primary-black);
+    margin-left:10px;
+
+}
+.off-price{
+    position:relative;
+    bottom:600px;
+    right:525px;
+    color:var(--primary-black);
+    font-weight:700;
+}
+.off-price smaller{
+    font-size:20px;
+    font-weight:500;
+    color:var(--primary-black);
+    margin-left:10px;
+}
+hr {
+    width:23%;
+    position:relative;
+    bottom:610px;
+    left:14px;
+    border-style:dashed;
+    border-width:initial;
+    color:var(--primary-white);
+}
+.package-card-contents .try-btn{
+    width:20%;
+    position:relative;
+    bottom:589px;
+    left:32px;
+
+}
+.arrow{
+    font-weight:800;
+    font-size: 22px;
+    padding-top:3px;
+}

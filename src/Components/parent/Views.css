@@ -1,0 +1,31 @@
+.view-container{
+    width:100%;
+    margin:30px auto;
+}
+.view-contents{
+    width:95%;
+    margin:0 auto;
+}
+.view-contents h2{
+    text-align:center;
+    font-size:2.5rem;
+}
+.view-flex{
+    width:100%;
+    display:flex;
+    margin:50px auto;
+}
+.view-content{
+    width:75%;
+    margin-left:15%;
+    text-align:center;
+}
+.view-content h3{
+    color:var(--primary-green);
+    margin:5px 0;
+    font-size:2rem;
+}
+.view-img{
+    width:25%;
+    margin:0 15%;
+}
