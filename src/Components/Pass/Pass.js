@@ -15,15 +15,17 @@ const Pass = () => {
     return (
         <>
             <section className="pass-container">
+                <section className="pass-contents">
                 <h2>Included in your SKIDOS pass</h2>
-                <section className="pass-grid-container">
-                    {passData()}
-                    {passData()}
-                    {passData()}
-                    {passData()}
-                    {passData()}
-                    {passData()}
+                    <section className="pass-grid-container">
+                        {passData()}
+                        {passData()}
+                        {passData()}
+                        {passData()}
+                        {passData()}
+                        {passData()}
 
+                    </section>
                 </section>
             </section>  
         </>

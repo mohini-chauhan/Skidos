@@ -23,9 +23,31 @@
 .view-content h3{
     color:var(--primary-green);
     margin:5px 0;
-    font-size:2rem;
+    font-size:1.7rem;
+    font-family:Roboto;
+}
+.view-content h4{
+    color:var(--primary-green);
+    margin:5px 0;
+    font-size:1.7rem;
+}
+.view-content p{
+    font-size: 1.2rem;
+    line-height: 30px;
+    margin: 9px 10px;
+}
+.rating-container{
+    width:100%;
+    margin-top: 10px;
+}
+.rating-container .rating-icon{
+    margin-right:1%;
+    color:var(--primary-yellow);
 }
 .view-img{
     width:25%;
     margin:0 15%;
 }
+.view-img img{
+    padding-right:4.5rem;
+ }

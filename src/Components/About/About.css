@@ -2,16 +2,21 @@
     width:100%;
     padding:10px 20px;
 }
+.center-abt-section{
+    width:95%;
+    margin:0 auto;
+}
 .abt-container h1{
     text-align:center;
     font-size:3.5rem;
+    margin-top:65px;
+    padding:15px;
     
 }
 
 
 .abt-contents {
-    width:95%;
-    margin:0 auto;
+    width:100%;
     display:flex;
     justify-content:space-evenly;
 }
