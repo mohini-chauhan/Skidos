@@ -10,6 +10,7 @@ const Rewards = () => {
             <section className="reward-container">
                 <section className="reward-contents">
                     <h2>Rewards & Recognition</h2>
+                    <hr className="under-line"/>
                     <section className="flex-reward">
                         <img src={reward1} alt="fun-reward"/>
                         <img src={reward2} alt="fun-reward"/>

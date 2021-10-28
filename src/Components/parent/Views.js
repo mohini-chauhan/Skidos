@@ -9,6 +9,7 @@ const Views = () => {
             <section className="view-container">
                 <section className="view-contents">
                     <h2>Loved by kids,parents & teachers</h2>
+                    <hr className="under-line"/>
                     <section className="view-flex">
                         <article className="view-content">
                             <h3>Kids are loving it</h3>

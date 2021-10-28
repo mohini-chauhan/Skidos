@@ -15,7 +15,8 @@ const Features = () => {
     return (
         <>
            <section className="Feature-container">
-               <h1>Let kids learn on their own with meaningful screen time</h1>
+               <h1>Let kids learn on their own with meaning-ful screen time</h1>
+               <hr className="under-line"/>
                <section className="feature-contents-container">
                    <section className="feature-grid">
                        {features()}

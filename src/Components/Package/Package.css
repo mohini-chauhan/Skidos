@@ -1,60 +1,79 @@
 .package-container{
     width:100%;
-    padding:5% 10%;
+    padding:20px;
+    padding-top: 0;
 }
+
+
 .package-container h1{
     text-align:center;
     font-size:3rem;
+    margin-bottom: 10px;
 }
 .package-container p{
     text-align:center;
     font-size:1.5rem;
-    line-height: 8rem;
+    line-height: 4rem;
 }
-.package-card-container{            /*needs to be checked*/
+.package-card-container{ 
+    display: flex;
     width:95%;
     margin:0 auto;
+    justify-content: space-evenly;
+    margin-top: 30px;
     
+}
+.package-card-contents{
+    width: 348px;
+    height: 473px;
+    background-image: url(./Package-asset/cardbg.png);
+    background-repeat: no-repeat;
+    padding: 20px;
+    
+}
+.card-special{
+    width: 90%;
+    margin: 10px auto;
+    padding:8px 5px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
 }
 .card-heading{
     position:relative;
-    bottom:478px;
-    right:525px;
     font-weight:600; 
 }
 
 .combo-img{
     display:flex;
-    width:15%;
+    width:100%;
     justify-content:center;
 }
 .cap{
     position:relative;
-    width:30%;
+    width:32%;
     height:40%;
-    bottom:500px;
-    left:110px;
+    left: 15%;
+  
     
 }
 .off{
     position:relative;
-    width:45%;
+    width:30%;
     height:40%;
-    bottom:525px;
-    left: 135px;
+    left: 18%;
     
 }
 .package-card-contents .month-price{    
     position:relative;
-    bottom:520px;
-    right:525px;
     color:var(--primary-white);
     font-size:45px;
     font-weight:700;
+    margin-top: 20px;
 }
 
 .package-card-contents .month-price smaller{
-    font-size:30px;
+    font-size:25px;
     font-weight:500;
     color:var(--primary-black);
     margin-left:10px;
@@ -62,10 +81,9 @@
 }
 .off-price{
     position:relative;
-    bottom:600px;
-    right:525px;
     color:var(--primary-black);
     font-weight:700;
+    line-height: 1rem !important;
 }
 .off-price smaller{
     font-size:20px;
@@ -74,20 +92,17 @@
     margin-left:10px;
 }
 hr {
-    width:23%;
+    width:100%;
     position:relative;
-    bottom:610px;
-    left:14px;
     border-style:dashed;
     border-width:initial;
     color:var(--primary-white);
+    margin-top: 9px;
 }
 .package-card-contents .try-btn{
-    width:20%;
+    width:100%;
     position:relative;
-    bottom:589px;
-    left:32px;
-
+    margin-top: 25px;
 }
 .arrow{
     font-weight:800;

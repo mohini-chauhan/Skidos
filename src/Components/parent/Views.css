@@ -9,15 +9,16 @@
 .view-contents h2{
     text-align:center;
     font-size:2.5rem;
+    margin-bottom: 10px;
 }
 .view-flex{
-    width:100%;
+    width:90%;
     display:flex;
     margin:50px auto;
 }
 .view-content{
-    width:75%;
-    margin-left:15%;
+    width:60%;
+    margin-left:0 50px;
     text-align:center;
 }
 .view-content h3{
@@ -45,9 +46,7 @@
     color:var(--primary-yellow);
 }
 .view-img{
-    width:25%;
-    margin:0 15%;
+    width:40%;
+    margin-left: 40px;
+    text-align: center;
 }
-.view-img img{
-    padding-right:4.5rem;
- }

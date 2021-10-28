@@ -1,6 +1,6 @@
 .fun-container{
     width:100%;
-    padding:0 10%;
+    padding:0 20px;
 }
 .fun-contents{
     width:95%;
@@ -10,6 +10,7 @@
 .fun-contents h2{
     text-align:center;
     font-size: 2.5rem;
+    margin-bottom: 10px;
 }
 .flex-section{
     width:100%;
@@ -18,10 +19,10 @@
     margin:70px 0;
 }
 .fun-img{
-    width:25%;
-    margin:0 5%;
+    width:40%;
+    margin:0 20px;
 }
 .fun-content{
-    width:75%;
-    margin:0 5%;
+    width:60%;
+    margin:0 20px;
 }

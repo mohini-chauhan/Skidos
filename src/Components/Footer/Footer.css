@@ -15,6 +15,7 @@
     width:50%;
     float:right;
     display: inline;
+    padding-top: 10px;
 }
 .footer-links{
     display:inline-block;
@@ -30,4 +31,47 @@
     content: " ";
     margin-right: 0.5rem;
     margin-left: 0.5rem;
+}
+.footer-social-icons{
+    font-size: 25px;
+    display: flex;
+    width: 30%;
+}
+.footer-social-icons div{
+    margin: 5px;
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 2px;
+
+}
+
+@media (max-width:922px){
+    .footer-contents article{
+        display: block;
+    }
+    .footer-contents article ul{
+        width: 100%;
+        text-align: center;
+    }
+    .footer-section{
+        margin: 0 auto;
+    }
+    .footer-links{
+        font-weight: 700;
+        font-size: 8px;
+    }
+    .footer-social-icons{
+        width: 100%;
+        padding-top: 20px;
+        justify-content: center;
+    }
+    .footer-social-icons div{
+        height: 30px;
+        width: 30px;
+        font-size: 19px;
+    }
 }

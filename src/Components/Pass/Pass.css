@@ -1,10 +1,11 @@
 .pass-container{
     width:100%;
-    padding:5% 10%;
+    padding:20px;
 }
 .pass-container h2{
    font-size:3rem;
     text-align:center;
+    margin-bottom: 10px;
 }
 .pass-contents{
     width:95%;
@@ -14,17 +15,17 @@
     width: 100%;
     margin: 70px auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit,22rem);
+    grid-template-columns: repeat(auto-fit,19rem);
     grid-gap: 4rem;
     padding: 0 5%;   
 }
 .pass-grid-container article{
     display:flex;
     margin:0 5px;
-    width:55%;
+    width:80%;
 }
 .pass-grid-container article img{
     margin-right:15px;
-    width:35%;
-    height:100%;
+    width:60px;
+    height:50px;
 }

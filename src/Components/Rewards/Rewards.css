@@ -12,14 +12,30 @@
     font-family:"Roboto";
     font-weight:600;
     text-align:center;
-    margin-top:10rem;
+    margin-top:6rem;
+    margin-bottom: 10px;
 }
 .flex-reward{
     width:100%;
     display:flex;
-    padding:5% 10%;
+    padding:50px;
 }
 .flex-reward img{
     width:33%;
     margin:0 10px;
+}
+
+@media (max-width:922px){
+    .reward-contents h2{
+        font-size: 1.5rem;
+    }
+    .flex-reward{
+        display: block;
+    }
+    .flex-reward img{
+        width: 90%;
+    }
+    .reward-container{
+        margin: 0;
+    }
 }

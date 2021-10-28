@@ -6,31 +6,26 @@
 .Feature-container h1{
     text-align:center;
     font-size: 3rem;
-    margin: 5% auto;
+    margin: 50px 100px 10px
 }
 .feature-contents-container{
     width:95%;
-    margin:20px auto;
+    margin:40px auto;
     display:flex;
     justify-content: space-between;
 }
 .feature-grid{
-    width:56%;
+    width:70%;
     display:grid;
     grid-template-columns: repeat(auto-fit,23rem);
     grid-gap:2rem;
-    padding-left:10%;
     margin-top: 11px;
 }
 .fcontents{
     display:flex;
 }
 .fcontents img{
-    width:50px;
+    width:60px;
     height:50px;
     margin-right:10px;
-}
-.feature-contents-container article{
-    width:auto;
-    padding-right:20%;
 }

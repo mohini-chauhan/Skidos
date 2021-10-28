@@ -17,6 +17,7 @@ const Pass = () => {
             <section className="pass-container">
                 <section className="pass-contents">
                 <h2>Included in your SKIDOS pass</h2>
+                <hr className="under-line"/>
                     <section className="pass-grid-container">
                         {passData()}
                         {passData()}

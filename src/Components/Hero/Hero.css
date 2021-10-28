@@ -14,11 +14,11 @@
 
 }
 .hero-container img{
-    position:absolute;
+    position:relative;
     left:54%;
-    top:14%;
+    top:12rem;
     width: 42%;
-    padding:1%;
+    padding:10px;
 }
 .hero-contents{
     width: 35%;
