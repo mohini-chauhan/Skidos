@@ -29,3 +29,21 @@
     height:50px;
     margin-right:10px;
 }
+/*********************************************Media Queries***************************************************************/
+@media (max-width:992px){
+    .feature-contents-container{
+        display:block;
+        margin:auto;
+    }
+    .feature-grid{
+        width:100%;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: repeat(auto-fit,16rem);
+    }
+    .fcontents img{
+        width:100%;
+        margin:auto;
+    }
+}

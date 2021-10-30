@@ -39,3 +39,18 @@
 .abt-content p{
     padding-bottom: 10px;
 }
+/*********************************************media queries********************************************************/
+@media (max-width:922px){
+    .abt-contents{
+        display: block;
+        margin:auto;
+    }
+    .abt-video{
+        width:100%;
+        padding:10px;
+    }
+    .abt-content{
+        width:100%;
+        padding:10px;
+    }
+}

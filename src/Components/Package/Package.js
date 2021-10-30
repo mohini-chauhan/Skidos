@@ -28,15 +28,15 @@ function card(st,img){
     return (
         <>
             <section className="package-container">
-                <h1>Our Learning Packages</h1>
-                <hr className="under-line"/>
-                <p>Choose the right Pass for your kid</p>
-                <section className="package-card-container">
-                    {card({visibility:'hidden'},cap)}
-                    {card({background:"#c90a8ef5"},gradCap)}
-                    {card({background:"blue"},Hat)}
-                    
-
+                <section className="package-content-container">
+                    <h1>Our Learning Packages</h1>
+                    <hr className="under-line"/>
+                    <p>Choose the right Pass for your kid</p>
+                    <section className="package-card-container">
+                        {card({visibility:'hidden'},cap)}
+                        {card({background:"#c90a8ef5"},gradCap)}
+                        {card({background:"blue"},Hat)}
+                    </section>
                 </section>
             </section> 
         </>

@@ -3,14 +3,18 @@
     padding:20px;
     padding-top: 0;
 }
+.package-content-container{
+    width:95%;
+    margin:0 auto;
+}
 
 
-.package-container h1{
+.package-content-container h1{
     text-align:center;
     font-size:3rem;
     margin-bottom: 10px;
 }
-.package-container p{
+.package-content-container p{
     text-align:center;
     font-size:1.5rem;
     line-height: 4rem;
@@ -108,4 +112,25 @@ hr {
     font-weight:800;
     font-size: 22px;
     padding-top:3px;
+}
+/*****************************************Media queries*****************************************************************/
+/*not completed yet*/
+@media (max-width:922px){
+    .package-card-container{
+        display:block;
+        margin:auto;
+    }
+    .package-content-container h1{
+        font-size:2rem;
+
+    }
+    .package-content-container .under-line{
+        margin-bottom: 4px;
+    }
+    .package-content-container p{
+        font-size:1.3rem;
+    }
+    .package-card-contents{
+        margin-bottom:40px;
+    }
 }

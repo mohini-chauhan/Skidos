@@ -50,3 +50,31 @@
     margin-left: 40px;
     text-align: center;
 }
+/*******************************************************Media queries************************************************************************/
+@media (max-width:922px){
+    .view-flex{
+        display:block;
+    }
+    .view-contents h2{
+        font-size:1.5rem;
+        margin-bottom: 0;
+    }
+    .view-content p {
+        font-size:1rem;
+        margin:auto;
+        line-height:25px; 
+    }
+    .view-content{
+        width:100%;
+    }
+    .view-content h3{
+        font-size:1.3rem;
+    }
+    .view-content h4{
+        font-size:1.3rem;
+    }
+    .view-img{
+        width:100%;
+        margin:auto;
+    }
+}
