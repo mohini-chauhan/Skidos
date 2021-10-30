@@ -47,3 +47,48 @@
     font-weight:800;
     font-size:1.25rem;
 }
+.try-btn:hover{
+    border-bottom: none;
+}
+
+
+@media (max-width:922px){
+    .hero-container{
+        background-size: inherit;
+        height: auto;
+    }
+
+    .hero-container img{
+        left: auto;
+        top: auto;
+        width: 95%;
+    }
+    .hero-center{
+        text-align: center;
+    }
+    .hero-contents{
+        width: 95%;
+        position: relative;
+        top: auto;
+        left: auto;
+        margin: auto;
+        text-align: center;
+    }
+    .hero-contents h1{
+        color:var(--primary-black);
+        font-size: 2rem;
+    }
+    .hero-contents p{
+        color:var(--primary-black);
+        font-size: 1rem;
+        line-height:25px;
+        margin:25px 0;
+    }
+
+}
+@media (max-width:600px){
+
+    .hero-container{
+        background-size: contain;
+    }
+}

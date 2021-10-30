@@ -2,16 +2,16 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 1% 5%;
+    padding: 10px;
 }
 .navbar img{
-    width:150px;
+    width:110px;
 }
 /*dropdwn styling*/
 .dropdwn-container{
-    justify-content: space-between;
+    justify-content:right;
     display: flex;
-    width: 18%;
+    width: 64%;
     
 }
 .dropdwn-container select{
@@ -34,4 +34,9 @@
     color:var(--primary-white);
     font-weight:600;
     font-size: 1rem;
+}
+
+.nav-btn:hover{
+    
+    border-bottom: none;
 }

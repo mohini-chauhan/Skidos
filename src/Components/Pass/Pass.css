@@ -15,15 +15,16 @@
     width: 100%;
     margin: 70px auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit,22rem);
-    grid-gap: 5rem;
-    padding: 0 5%; 
+    grid-template-columns: repeat(auto-fit,18rem);
+    grid-gap: 2rem;
+    padding: 0 10px; 
     justify-content:center;  
 }
 .pass-grid-container article{
     display:flex;
     margin:0 5px;
     width:80%;
+    margin: auto;
 }
 .pass-grid-container article img{
     margin-right:15px;
@@ -36,8 +37,7 @@
         font-size: 1.6rem;
     }
     .pass-grid-container{
-        grid-gap:3rem;
-        padding:10px auto;
+        grid-gap:2rem;
         margin:auto;
         align-content: center;
         justify-content: center;

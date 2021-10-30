@@ -40,6 +40,8 @@
     padding-bottom: 10px;
 }
 /*********************************************media queries********************************************************/
+
+
 @media (max-width:922px){
     .abt-contents{
         display: block;
@@ -48,9 +50,18 @@
     .abt-video{
         width:100%;
         padding:10px;
+        height: 50vh;
     }
     .abt-content{
         width:100%;
         padding:10px;
+    }
+    .abt-container h1{
+        font-size: 2rem;
+    }
+}
+@media (max-width:480px){
+    .abt-video{
+        height: 30vh;
     }
 }

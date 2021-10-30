@@ -17,9 +17,18 @@
 .feature-grid{
     width:70%;
     display:grid;
-    grid-template-columns: repeat(auto-fit,23rem);
+    grid-template-columns: repeat(auto-fit,minmax(272px, 1fr));
     grid-gap:2rem;
     margin-top: 11px;
+}
+.feature-img{
+    text-align: center;
+    width: 50%;
+}
+
+.feature-img img{
+    width: 250px;
+
 }
 .fcontents{
     display:flex;
@@ -34,16 +43,21 @@
     .feature-contents-container{
         display:block;
         margin:auto;
+        width: 100%;
     }
     .feature-grid{
         width:100%;
         padding: 20px;
         justify-content: center;
         align-items: center;
-        grid-template-columns: repeat(auto-fit,16rem);
     }
-    .fcontents img{
-        width:100%;
-        margin:auto;
+    .feature-img{
+        width: 100%;
+    }
+    
+    .Feature-container h1{
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
     }
 }

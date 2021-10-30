@@ -27,7 +27,7 @@ const Features = () => {
                        {features()}
 
                    </section>
-                   <article>
+                   <article className="feature-img">
                        <img src={bird} alt="char1"/>
                    </article>
                </section>
