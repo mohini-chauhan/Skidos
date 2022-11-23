@@ -18,13 +18,13 @@
     border:none;
     background:none;
     outline: none;
-    margin:0 5px;
+    margin:0 15px;
     font-weight:600;
     font-size: 1.25rem;
 }
 /*Btn-styling*/
 .nav-btn{
-    width:105px;
+    width:112px;
     height: 40px;
     margin-top:20px;
     background:var(--primary-orange);

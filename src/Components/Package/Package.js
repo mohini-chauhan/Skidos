@@ -1,6 +1,5 @@
 import "./Package.css"
 import React from 'react'
-import cardbg from "./Package-asset/cardbg.png"
 import cap from "./Package-asset/cap.png"
 import gradCap from "./Package-asset/gradCap.png"
 import Hat from "./Package-asset/Hat.png"
@@ -9,6 +8,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 const Package = () => {
 function card(st,img){
+    function handleClick(){
+        alert("success")
+    }
     return(
         <section className="package-card-contents">
             <div className="card-special" style={st}>Most Popular</div>
@@ -20,7 +22,7 @@ function card(st,img){
             <p className="month-price">$7.99<smaller>/Mo</smaller></p>
             <p className="off-price"><s>$15.99</s><smaller>/Mo</smaller></p>
             <hr/>
-            <button className="try-btn">Try for Free  <FontAwesomeIcon className="arrow" icon={faArrowRight} /></button>
+            <button className="try-btn" onClick={handleClick}>Try for Free  <FontAwesomeIcon className="arrow" icon={faArrowRight} /></button>
     </section>
     )
 }
